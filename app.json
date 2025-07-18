@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Profissionais Locais",
+    "slug": "profissionais-locais",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "description": "Encontre profissionais locais para seus serviços",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.profissionaislocais.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+          "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.profissionaislocais.app",
+      "versionCode": 1
+    },
+    "web": {
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "56a97b9a-f914-4f02-969d-b815c0857a31"
+      }
+    },
+    "owner": "lucayan"
+  }
+}
